@@ -1,13 +1,9 @@
-.icon-left {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+.icon-top-left {
+  align-self: flex-start;
 }
 
-.icon-right {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
+.icon-bottom-right {
+  align-self: flex-end;
 }
 
 .season-display.summer i {
@@ -20,7 +16,7 @@
 
 .season-display {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   height: 100vh;
 }
